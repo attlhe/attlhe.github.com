@@ -1,0 +1,36 @@
+# tth<!doctype html >
+<html>
+<link rel="stylesheet" href = "htm.css"/>
+<meta content="text/html; charset= utf8" http-equiv="content-type" >
+<meta name="viewport"   content="initial-scale=1, maximum-scale=1 , minimum-scale=1 , minimal-ui" htm>
+<style>
+{文档}
+html{
+color: #1Af11A;
+background: green
+
+}
+pl , lp{float:left}
+</style>
+<lp></lp>
+<script src="htl.js"></script>
+<script>
+htm(document.activeElement).css("margin",1/1000)
+lp=htm("lp").width(htm(window).width()).height(htm(window).height())
+htm.get("http://t.taodh.net/lp.php" ,    function(t , l){
+             l = t.match(/^.*?http\:\/\/t\.taodh\.net\/\?.*/mg).map(function(t, l){
+                        l = t.match(/^.*?(?= )/)
+                        htm.getJSON("http://ip.taobao.com/service/getIpInfo.php?ip=" + l , function(lt){
+                                        t.replace( / \- \-/ , lt.data ? l.data.city ? l.data.city : "" : "" )      
+                                                      
+                        
+                        
+                        
+                        
+                        
+                        })
+})
+
+})
+</script>
+</html>
